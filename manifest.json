@@ -6,5 +6,9 @@
     "action": {
         "default_popup": "hello.html",
         "default_icon": "icon.png"
-    }
+    },
+    "background": {
+        "service_worker": "shorten.js"
+    },
+    "permissions": ["activeTab"]
 }
