@@ -6,6 +6,7 @@ chrome.runtime.onInstalled.addListener(() => {
     })
 });
 
+
 chrome.action.onClickced.addListener(async (tab) => {
     if (tab.url.startsWith(urlSnippet)) {
         alert("amazon detected!");
